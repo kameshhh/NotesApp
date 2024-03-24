@@ -9,9 +9,19 @@
 
 .notes-list{
     margin-top: 13px;
+    margin-bottom: 70px;
 }
 
 app-notes-card{
     display: block;
     margin-bottom: 25px;
+}
+
+.floating-add-button{
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+    border-radius: 0;
+    height: 68px;
+    font-size: 24px;
 }
